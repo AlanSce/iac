@@ -1,0 +1,8 @@
+tuneles:
+  hosts:
+    host1:
+      port: 3001
+    host2:
+      port: 3002
+    host3: 
+      port: 3003

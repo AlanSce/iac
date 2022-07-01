@@ -1,7 +1,7 @@
 StrictHostKeyChecking no
 UserKnownHostsFile /dev/null
-User root
-ProxyCommand None
+#User root
+#ProxyCommand None
 
 Host host1
     HostKeyAlias host1
@@ -10,12 +10,12 @@ Host host1
 
 Host host2
     HostKeyAlias host2
-    User root
+    User host2 
     ProxyCommand connectTunnel -W -c %h
 
 Host host3
     HostKeyAlias host3
-    User root
+    User host3
     ProxyCommand connectTunnel -W -c %h
 
 

@@ -1,4 +1,4 @@
 [my_hosts]
 host1 
-host2 ansible_ssh_pass=root
-host3 ansible_ssh_pass=root
+host2 
+host3 
