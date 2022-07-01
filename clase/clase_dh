@@ -1,0 +1,11 @@
+Clase de infra 
+
+
+## 1  presentación 
+
+Primero me presento, mi nombre es Alan, actualmente trabajo en el área de infraestructura en una empresa de Software. Mi día a día se trata entre otras cosas de la administración de servidores en la nube, involucrando todo lo que sería su mantenimiento, monitoreo, y el despliegue del software de la empresa en tecnologías basadas en containers tales como son Docker y Kubernetes.
+
+
+En esta clase vamos a trabajar sobre la infraestructura como código. Nuestro objetivo va a ser conocer los conceptos fundamentales de este concepto o práctica en el mundo del software. Vamos a realizar una práctica mediante ansible, y finalmente vamos a ver algunos ejemplos reales de uso de IAC en la empresa donde trabajo
+
+
