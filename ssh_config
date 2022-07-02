@@ -1,21 +1,19 @@
 StrictHostKeyChecking no
 UserKnownHostsFile /dev/null
-#User root
-#ProxyCommand None
+User root
+ProxyCommand None
 
 Host host1
     HostKeyAlias host1
-    User host1
-    ProxyCommand connectTunnel -W -c %h
+    Port 32200
+    Hostname localhost
 
 Host host2
     HostKeyAlias host2
-    User host2 
-    ProxyCommand connectTunnel -W -c %h
+    Port 32201
+    Hostname localhost
 
 Host host3
     HostKeyAlias host3
-    User host3
-    ProxyCommand connectTunnel -W -c %h
-
-
+    Port 32202
+    Hostname localhost

@@ -1,0 +1,15 @@
+---
+- name: Instalar cosas
+  hosts: my_hosts
+  tasks: 
+    - name: Asegurarse que el usuario está creado 
+      user: 
+        name: profesores
+        group: users
+        groups: ['sudo']
+        create_home: 'yes'
+
+    - name: Asegurarse que están las notas
+      copy:
+        src: notas.txt
+        dest: /home/profesores/
